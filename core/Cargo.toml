@@ -1,0 +1,10 @@
+[package]
+edition = "2018"
+name = "edon_core"
+version = "0.0.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rusty_v8 = "0.28"
+tokio = {version = "1", features = ["full"]}
